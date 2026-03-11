@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Cartelera Interactiva de Videojuegos</title>
+  </head>
+  <body>
+    <!--
+    El Reto: "La Cartelera Interactiva de Videojuegos"
+    Tu archivo HTML debe contener esta estructura:
+
+    Encabezado: 
+      - Un h1 con el nombre del juego y un p con una breve descripción (usa strong y em dentro).
+
+    Ficha Técnica (Tabla): Una tabla con 3 filas y 2 columnas:
+      - Fila 1: Desarrollador | [Nombre]
+      - Fila 2: Año | [Año]
+      - Fila 3: Género | [Género]
+
+    Multimedia:
+      - Un <video> con el atributo controls (para que podamos darle al play, por ejemplo, trailer oficial de Minecraft).
+      - Un <audio> con el atributo controls (puede ser la música de fondo del juego).
+
+    Listas:
+      - Una ul con el reparto de personajes o elementos principales del juego.
+      - Una ol con tu "Top 3" momentos favoritos o construcciones.
+
+    Imagen y Enlace:
+      - Una img del póster o captura del juego.
+      - Un a que lleve a la página oficial de Minecraft o a su reseña.
+  -->
+
+    <!-- Encabezado -->
+    <h1>Minecraft</h1>
+    <p>
+      <strong>Minecraft</strong> es un videojuego muy popular donde los
+      jugadores pueden
+      <em>explorar, construir y sobrevivir en un mundo hecho de bloques</em>.
+    </p>
+
+    <!-- Ficha Técnica (Tabla) -->
+    <h2>Ficha Técnica</h2>
+    <table border="1">
+      <tr>
+        <td>Desarrollador</td>
+        <td>Mojang Studios</td>
+      </tr>
+      <tr>
+        <td>Año</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Género</td>
+        <td>Sandbox / Aventura</td>
+      </tr>
+    </table>
+
+    <!-- Multimedia -->
+    <h2>Multimedia</h2>
+
+    <h3>Trailer</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/MmB9b5njVbA"
+      title="Minecraft Trailer"
+      frameborder="0"
+      allowfullscreen
+    >
+    </iframe>
+    <!-- Ejemplo con etiqueta video -->
+    <video width="500" controls>
+      <source src="minecraft-trailer.mp4" type="video/mp4" />
+      Tu navegador no soporta video.
+    </video>
+
+    <h3>Música del juego</h3>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aBkTkxKDduc"
+      title="Minecraft Music"
+      frameborder="0"
+      allowfullscreen
+    >
+    </iframe>
+    <!-- Ejemplo con etiqueta audio -->
+    <audio controls>
+      <source src="minecraft-music.mp3" type="audio/mpeg" />
+      Tu navegador no soporta audio.
+    </audio>
+
+    <!-- Listas -->
+    <h2>Elementos principales</h2>
+    <ul>
+      <li>Steve</li>
+      <li>Creeper</li>
+      <li>Enderman</li>
+      <li>Zombies</li>
+      <li>Aldeanos</li>
+    </ul>
+
+    <h2>Mi Top 3 momentos favoritos</h2>
+    <ol>
+      <li>Construir mi primera casa</li>
+      <li>Encontrar diamantes</li>
+      <li>Derrotar al Ender Dragon</li>
+    </ol>
+
+    <!-- Imagen y Enlace -->
+    <h2>Imagen del juego</h2>
+    <img
+      src="https://preview.redd.it/new-minecraft-art-cover-what-do-you-think-v0-jncj9eqr9bad1.jpeg?width=1080&crop=smart&auto=webp&s=65ca35b197588b35088a7e68b7eccedadc4bd716"
+      width="300"
+      alt="Portada de Minecraft"
+    />
+
+    <p>
+      <a href="https://www.minecraft.net" target="_blank">
+        Visitar la página oficial de Minecraft
+      </a>
+    </p>
+  </body>
+</html>

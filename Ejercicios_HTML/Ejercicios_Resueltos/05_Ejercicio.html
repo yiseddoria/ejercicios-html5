@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evento RoboTech 2026 🤖</title>
+  </head>
+  <body>
+    <!-- 
+    RETO: Landing Page de "Evento RoboTech 2026 🤖"
+    El Objetivo: Crear una página de aterrizaje (Landing Page) para un evento. Debe ser una sola página que informe, resuelva dudas y capture el interés del usuario.
+
+    1. Estructura:
+      - Usa un <header> con un <nav> que tenga al menos dos enlaces a secciones de la misma página (usando #id).
+      - Divide el contenido principal en secciones para separar la Información general, Preguntas frecuentes y el formulario de registro.
+      - Imagen para el evento.
+      - Usa un <article> para describir el evento.
+
+    2. Preguntas Frecuentes
+      - Crea una sección de "Preguntas Frecuentes".
+      - Utiliza exclusivamente las etiquetas <details> y <summary> para que el usuario pueda desplegar las respuestas (por ejemplo: "¿Es gratis?", "¿Cuánto dura el evento?", "¿Dónde se realiza?", "¿Qué nivel de conocimiento necesito?", etc). Mínimo 4 preguntas.
+
+    3. El Formulario de Registro
+      - Crea un <form> donde el usuario pueda dejar su nombre, correo y teléfono. Dentro de este formulario, debes incluir:
+      - El Botón: Dentro de este botón, añade un icono (puedes usar un emoji como ⚡) y el texto "¡Unirme al evento!" en negrita.
+
+    4. La Zona pie de página
+      - Al final, en un <footer>, añade una lista de enlaces con estas funciones específicas:
+        * Términos y condiciones
+        * Enlace a redes sociales
+  -->
+    <!-- HEADER -->
+    <header>
+      <h1>🤖 RoboTech 2026</h1>
+
+      <nav>
+        <a href="#info">Información</a> |
+        <a href="#faq">Preguntas Frecuentes</a> |
+        <a href="#registro">Registro</a>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- INFORMACIÓN DEL EVENTO -->
+      <section id="info">
+        <h2>Sobre el evento</h2>
+
+        <article>
+          <p>
+            <strong>RoboTech 2026</strong> es un evento tecnológico dedicado a
+            la <em>robótica, inteligencia artificial y automatización</em>.
+            Durante el evento podrás asistir a charlas, demostraciones y
+            talleres donde expertos mostrarán las tecnologías que están
+            transformando el futuro.
+          </p>
+        </article>
+
+        <!-- Imagen -->
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Humanoid_robot.jpg"
+          width="400"
+          alt="Robot tecnológico"
+        />
+      </section>
+
+      <!-- PREGUNTAS FRECUENTES -->
+      <section id="faq">
+        <h2>Preguntas Frecuentes</h2>
+
+        <details>
+          <summary>¿Es gratis el evento?</summary>
+          <p>
+            Sí, la entrada al evento es completamente gratuita, pero requiere
+            registro previo.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Cuánto dura el evento?</summary>
+          <p>
+            El evento tendrá una duración de un día completo con charlas y
+            talleres.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Dónde se realiza?</summary>
+          <p>Se realizará en el centro tecnológico de la ciudad.</p>
+        </details>
+
+        <details>
+          <summary>¿Qué nivel de conocimiento necesito?</summary>
+          <p>
+            No necesitas conocimientos avanzados, el evento está pensado para
+            todos los niveles.
+          </p>
+        </details>
+      </section>
+
+      <!-- FORMULARIO -->
+      <section id="registro">
+        <h2>Registro al evento</h2>
+
+        <form>
+          <label>Nombre:</label><br />
+          <input type="text" name="nombre" /><br /><br />
+
+          <label>Correo:</label><br />
+          <input type="email" name="correo" /><br /><br />
+
+          <label>Teléfono:</label><br />
+          <input type="tel" name="telefono" /><br /><br />
+
+          <button type="submit">⚡ <strong>¡Unirme al evento!</strong></button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <h3>Información</h3>
+
+      <ul>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li><a href="#">Redes sociales</a></li>
+      </ul>
+
+      <p>© 2026 RoboTech</p>
+    </footer>
+  </body>
+</html>
