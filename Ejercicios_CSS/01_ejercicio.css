@@ -1,0 +1,20 @@
+/* Fuente para el título */
+h1 {
+  color: blue;
+  font-family: Arial, sans-serif;
+}
+
+/* Fuente para el resto del texto */
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* Color de los párrafos */
+p {
+  color: darkgreen;
+}
+
+/* Color de los elementos de la lista */
+ul li {
+  color: purple;
+}

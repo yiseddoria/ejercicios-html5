@@ -1,0 +1,94 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+/* TITULOS */
+
+.titulo-principal{
+    color: purple;
+    font-family: Georgia, serif;
+}
+
+.titulo-articulo{
+    color: darkblue;
+    font-family: Georgia, serif;
+}
+
+.titulo-temas{
+    color: green;
+    font-family: Georgia, serif;
+}
+
+
+/* PARRAFOS */
+
+.p-descripcion-principal{
+    color: red;
+}
+
+.p-tecnologia{
+    color: blue;
+}
+
+.p-expertos{
+    color: orange;
+}
+
+.p-nombre{
+    color: purple;
+}
+
+.p-año{
+    color: brown;
+}
+
+.p-email{
+    color: teal;
+}
+
+/* ENLACES */
+
+nav a {
+    color: red;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+main {
+    width: 900px;
+    margin-top: 50px;
+}
+
+/* ARTICULO */
+
+article {
+    width: 600px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* LISTA */
+
+ul {
+    color: blue;
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 900px;
+    margin-top: 50px;
+    background-color: #ddd;
+    padding: 20px;
+}

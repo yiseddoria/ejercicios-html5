@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revista Digital</title>
+    <link rel="stylesheet" href="05_ejercicio.css">
+  </head>
+  <body>
+    <!-- 
+    Vamos a crear una web
+    Tu página debe contener las siguientes secciones:
+    
+    Header
+      Un <h1> con el nombre: Revista Digital
+      Un párrafo <p> con una descripción
+      Un menú de navegación <nav> con al menos 4 enlaces
+        Inicio
+        Noticias
+        Multimedia
+        Contacto
+   Contenido principal <main>
+      📰 Artículo principal
+        Crear un <article> que contenga:
+          <h2> título del artículo
+          Dos párrafos <p>
+          Una imagen
+      Crear una sección con:
+        Temas populares <h2>
+        Una lista <ul> con al menos 4 temas
+    Footer
+      Nombre del sitio
+      Año actual
+      Email de contacto.      
+
+    Debes aplicar estilos:
+      color de fondo de la página
+      color de fondo para el header
+      color diferente para títulos
+      cada párrafo de un color
+      color de los enlaces en rojo y sin subrayado
+      color de fondo para el footer
+      color de la lista en azul y tamaña 20px
+      una fuente para títulos y otra para textos
+    
+      Ancho del contenedor principal de 900px
+      margen superior de 50px para el contenedor principal
+      ancho fijo del artículo de 600px
+      margin de 20px a los artículos
+      padding de 10px a los artículos
+      Ancho de 900px para footer
+      margen superior de 50px para el footer
+    -->
+    <header>
+      <h1 class="titulo-principal">Revista Digital</h1>
+      <p class="p-descripcion-principal">
+        Tu fuente diaria de información sobre tecnología, cultura y actualidad.
+      </p>
+
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Noticias</a>
+        <a href="#">Multimedia</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2 class="titulo-articulo">La tecnología del futuro</h2>
+
+        <p class="p-tecnologia">
+          La tecnología sigue avanzando a un ritmo acelerado. Nuevas
+          innovaciones aparecen cada año y cambian la forma en que vivimos y
+          trabajamos.
+        </p>
+
+        <p class="p-expertos">
+          Expertos creen que en los próximos años veremos avances importantes en
+          inteligencia artificial, robótica y energías renovables.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Tecnología" />
+      </article>
+
+      <section>
+        <h2 class="titulo-temas">Temas populares</h2>
+
+        <ul>
+          <li>Tecnología</li>
+          <li>Ciencia</li>
+          <li>Salud</li>
+          <li>Entretenimiento</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p class="p-nombre">Revista Digital</p>
+      <p class="p-año">2026</p>
+      <p class="p-email">contacto@revistadigital.com</p>
+    </footer>
+  </body>
+</html>
