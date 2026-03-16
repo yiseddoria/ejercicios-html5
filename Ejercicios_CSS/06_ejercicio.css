@@ -1,61 +1,71 @@
+/* Fuente general de toda la página */
 body {
-  background-color: #fddacd;
   font-family: Mulish, sans-serif;
 }
 
+/* Contenedor principal donde está todo el contenido */
 .contenedor {
-  width: 600px;
-  margin: auto;
-  text-align: center;
+  width: 800px; /* ancho del contenedor */
+  margin: 40px auto; /* espacio arriba/abajo y centrado horizontal */
+  background-color: #fddacd; /* color de fondo */
+  padding: 50px; /* espacio interior entre borde y contenido */
+  border-radius: 10px; /* esquinas redondeadas */
+  text-align: center; /* centra el texto */
 }
 
+/* Estilo del título principal */
 h1 {
-  font-family: "Dancing Script", cursive;
-  font-weight: 200;
-  font-size: 48px;
-  border-bottom: 4px solid #cd472d;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 1px;
+  font-family: "Pacifico"; /* fuente del título */
+  font-weight: 100; /* grosor de la letra */
+  font-size: 65px; /* tamaño del título */
+  padding-bottom: 5px; /* espacio interior inferior */
+  margin-bottom: 1px; /* pequeño espacio debajo */
+  line-height: 1; /* reduce la altura de línea */
 }
 
+/* Imagen decorativa dentro del header */
+header img {
+  width: 500px; /* tamaño de la imagen */
+}
+
+/* Subtítulo de las secciones */
 h2 {
-  color: #2e2c2e;
-  margin-bottom: 30px;
-  font-weight: 1500;
-  text-shadow:
+  color: #2e2c2e; /* color del texto */
+  margin-bottom: 30px; /* espacio debajo del subtítulo */
+  font-weight: 1500; /* grosor del texto */
+  text-shadow: /* efecto de borde alrededor del texto */
     0.3px 0 currentColor,
     -0.3px 0 currentColor,
     0 0.3px currentColor,
     0 -0.3px currentColor;
 }
 
+/* Caja que contiene cada regla */
 .regla {
-  background-color: #fef9dd;
-  border: 3px solid #2c2c2e;
-  border-radius: 1px;
-  border-left: none; /* sin borde izquierdo */
-  border-top: none; /* sin borde superior */
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  margin-bottom: 15px;
-  text-align: left;
+  background-color: #fef9dd; /* color de fondo */
+  border: 3px solid #2c2c2e; /* borde de la caja */
+  border-radius: 1px; /* esquinas ligeramente redondeadas */
+  border-left: none; /* elimina el borde izquierdo */
+  border-top: none; /* elimina el borde superior */
+  display: flex; /* activa flexbox */
+  align-items: center; /* centra verticalmente imagen y texto */
+  padding: 15px; /* espacio interior */
+  margin-bottom: 15px; /* espacio entre reglas */
+  text-align: left; /* alinea el texto a la izquierda */
+  box-shadow: 1px 1px 2px #474443; /* sombra ligera */
 }
 
-.regla:last-child {
-  margin-bottom: 70px;
-}
-
+/* Imagen dentro de cada regla */
 .regla img {
-  width: 100px;
-  margin-right: 20px;
+  width: 100px; /* tamaño de la imagen */
+  margin-right: 20px; /* espacio entre imagen y texto */
 }
 
+/* Texto de cada regla */
 .regla p {
-  font-size: 24px;
-  color: #2e2c36;
-  text-shadow:
+  font-size: 24px; /* tamaño del texto */
+  color: #2e2c36; /* color del texto */
+  text-shadow: /* pequeño efecto de borde */
     0.2px 0 currentColor,
     -0.2px 0 currentColor,
     0 0.2px currentColor,
